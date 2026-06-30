@@ -8,6 +8,7 @@ Autor de notas: Alonso Santamaria
 
 - [Overview del curso](overview.md)
 - [Evolution of Component Libraries](evolution-of-component-libraries.md)
+- [Why shadcn/ui is Different](why-shadcn-ui-is-different.md)
 
 ## Fuente
 
