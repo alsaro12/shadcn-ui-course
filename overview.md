@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `core-concepts.md`
+- `components-json.md`
 
 ## Resumen
 
@@ -119,6 +119,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Registrar version Markdown oficial.
 - [x] Revisar primera leccion `evolution-of-component-libraries`.
 - [x] Revisar segunda leccion `why-shadcn-ui-is-different`.
+- [x] Revisar tercera leccion `core-concepts`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [ ] Instalar `shadcn/ui`.
 - [ ] Agregar primer componente.
@@ -138,6 +139,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Deployment | Pendiente |
 | Primera leccion | `evolution-of-component-libraries.md` |
 | Segunda leccion | `why-shadcn-ui-is-different.md` |
+| Tercera leccion | `core-concepts.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV
