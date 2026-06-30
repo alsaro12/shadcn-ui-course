@@ -319,12 +319,46 @@ Cuando evaluemos una libreria de componentes, conviene preguntar:
 
 ## Done-When
 
-- [x] Entiendo por que los jQuery plugins eran fragiles para UI compleja.
-- [x] Entiendo que las librerias tradicionales priorizan consistencia, pero pueden limitar personalizacion.
-- [x] Entiendo el problema de overrides y theming profundo.
-- [x] Entiendo que los componentes headless separan comportamiento y apariencia.
-- [x] Entiendo el valor del modelo copy-paste.
-- [x] Puedo explicar por que `shadcn/ui` combina Radix UI, Tailwind CSS, registry y ownership del codigo.
+### Entiendo por que los jQuery plugins eran fragiles para UI compleja.
+
+Si. Los jQuery plugins eran utiles para agregar interaccion rapidamente, pero no escalaban bien en interfaces complejas porque cada plugin tenia su propia API, su propio sistema de estilos y sus propias dependencias.
+
+El problema principal era que funcionaban como cajas negras. Si el comportamiento o el diseno requerido no estaba contemplado por el plugin, habia que hacer overrides fragiles, parches manuales o forks. Eso volvia dificil mantener consistencia, accesibilidad y evolucion del producto.
+
+### Entiendo que las librerias tradicionales priorizan consistencia, pero pueden limitar personalizacion.
+
+Si. Librerias como Bootstrap, Material UI o Ant Design ayudan a construir rapido porque ya traen un lenguaje visual, componentes documentados y patrones consistentes.
+
+El limite aparece cuando el producto necesita una identidad visual distinta. En ese caso, el equipo empieza a pelear contra las decisiones de la libreria: props limitadas, estructura interna cerrada, estilos dificiles de modificar y componentes que no siempre encajan con el diseno real.
+
+### Entiendo el problema de overrides y theming profundo.
+
+Si. Los overrides suelen empezar como cambios pequenos de CSS, pero pueden crecer hasta convertirse en una capa dificil de mantener, especialmente cuando dependen de clases internas o requieren `!important`.
+
+El theming profundo mejora el orden, pero no elimina el problema de fondo: para personalizar bien hay que conocer detalles internos de la libreria. Eso crea acoplamiento. Una actualizacion de version puede romper estilos o comportamiento porque el componente sigue perteneciendo a una dependencia externa.
+
+### Entiendo que los componentes headless separan comportamiento y apariencia.
+
+Si. Los componentes headless resuelven la parte compleja del comportamiento, como accesibilidad, manejo de foco, teclado, ARIA y estado, pero no imponen una apariencia visual.
+
+Esa separacion permite que el equipo construya cualquier diseno encima de una base funcional y accesible. El tradeoff es que el equipo tambien debe crear y mantener el sistema visual, porque la libreria headless no entrega una interfaz final lista para usar.
+
+### Entiendo el valor del modelo copy-paste.
+
+Si. El modelo copy-paste tiene valor porque el componente pasa a ser parte del codebase. El equipo no depende de una caja negra ni de una API limitada para modificarlo.
+
+Esto da ownership real: se puede cambiar estructura, estilos, variantes, comportamiento y dependencias segun las necesidades del producto. Tambien ayuda a incluir solo el codigo que se usa y a entender mejor como funciona cada componente.
+
+### Puedo explicar por que `shadcn/ui` combina Radix UI, Tailwind CSS, registry y ownership del codigo.
+
+Si. `shadcn/ui` combina esas piezas porque cada una resuelve una parte distinta del problema:
+
+- Radix UI aporta primitives accesibles y comportamiento robusto.
+- Tailwind CSS permite estilos explicitos, modificables y consistentes.
+- El registry permite descubrir, distribuir y agregar componentes de forma sistematica.
+- El modelo copy-paste hace que el codigo viva dentro del proyecto y sea propiedad del equipo.
+
+Por eso `shadcn/ui` no es solo una libreria de componentes tradicional. Es un modelo para adoptar componentes como punto de partida, mantener control sobre ellos y construir una UI propia sin perder accesibilidad ni consistencia.
 
 ## Siguiente leccion
 
