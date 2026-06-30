@@ -7,6 +7,7 @@ Autor de notas: Alonso Santamaria
 ## Contenido
 
 - [Overview del curso](overview.md)
+- [Evolution of Component Libraries](evolution-of-component-libraries.md)
 
 ## Fuente
 
