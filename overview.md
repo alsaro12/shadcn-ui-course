@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `adding-your-first-component.md`
+- `overriding-styles-with-tailwind.md`
 
 ## Resumen
 
@@ -124,11 +124,13 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar quinta leccion `what-are-radix-primitives`.
 - [x] Revisar sexta leccion `anatomy-of-a-primitive`.
 - [x] Revisar septima leccion `installing-shadcn-ui`.
+- [x] Revisar octava leccion `adding-your-first-component`.
 - [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [x] Documentar instalacion de `shadcn/ui`.
 - [ ] Instalar `shadcn/ui` en proyecto de practica.
-- [ ] Agregar primer componente.
+- [x] Documentar como agregar primer componente.
+- [ ] Agregar primer componente en proyecto de practica.
 - [ ] Documentar patron de override con Tailwind.
 - [ ] Crear componente propio.
 - [ ] Crear registro de componentes.
@@ -149,6 +151,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Quinta leccion | `what-are-radix-primitives.md` |
 | Sexta leccion | `anatomy-of-a-primitive.md` |
 | Septima leccion | `installing-shadcn-ui.md` |
+| Octava leccion | `adding-your-first-component.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV
