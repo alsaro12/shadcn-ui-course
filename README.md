@@ -13,6 +13,7 @@ Autor de notas: Alonso Santamaria
 - [Understanding components.json](components-json.md)
 - [What are Radix Primitives?](what-are-radix-primitives.md)
 - [Anatomy of a Primitive](anatomy-of-a-primitive.md)
+- [Installing shadcn/ui](installing-shadcn-ui.md)
 
 ## Fuente
 
