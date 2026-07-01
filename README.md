@@ -15,6 +15,7 @@ Autor de notas: Alonso Santamaria
 - [Anatomy of a Primitive](anatomy-of-a-primitive.md)
 - [Installing shadcn/ui](installing-shadcn-ui.md)
 - [Adding Your First Component](adding-your-first-component.md)
+- [Overriding Styles with Tailwind](overriding-styles-with-tailwind.md)
 
 ## Fuente
 

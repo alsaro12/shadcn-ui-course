@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `overriding-styles-with-tailwind.md`
+- `updating-and-maintaining-components.md`
 
 ## Resumen
 
@@ -125,13 +125,14 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar sexta leccion `anatomy-of-a-primitive`.
 - [x] Revisar septima leccion `installing-shadcn-ui`.
 - [x] Revisar octava leccion `adding-your-first-component`.
+- [x] Revisar novena leccion `overriding-styles-with-tailwind`.
 - [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [x] Documentar instalacion de `shadcn/ui`.
 - [ ] Instalar `shadcn/ui` en proyecto de practica.
 - [x] Documentar como agregar primer componente.
 - [ ] Agregar primer componente en proyecto de practica.
-- [ ] Documentar patron de override con Tailwind.
+- [x] Documentar patron de override con Tailwind.
 - [ ] Crear componente propio.
 - [ ] Crear registro de componentes.
 - [ ] Guardar evidencia final.
@@ -152,6 +153,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Sexta leccion | `anatomy-of-a-primitive.md` |
 | Septima leccion | `installing-shadcn-ui.md` |
 | Octava leccion | `adding-your-first-component.md` |
+| Novena leccion | `overriding-styles-with-tailwind.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV
