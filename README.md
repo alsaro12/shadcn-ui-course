@@ -10,6 +10,7 @@ Autor de notas: Alonso Santamaria
 - [Evolution of Component Libraries](evolution-of-component-libraries.md)
 - [Why shadcn/ui is Different](why-shadcn-ui-is-different.md)
 - [Core Concepts](core-concepts.md)
+- [Understanding components.json](components-json.md)
 
 ## Fuente
 

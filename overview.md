@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `components-json.md`
+- `what-are-radix-primitives.md`
 
 ## Resumen
 
@@ -120,10 +120,11 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar primera leccion `evolution-of-component-libraries`.
 - [x] Revisar segunda leccion `why-shadcn-ui-is-different`.
 - [x] Revisar tercera leccion `core-concepts`.
+- [x] Revisar cuarta leccion `components-json`.
+- [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [ ] Instalar `shadcn/ui`.
 - [ ] Agregar primer componente.
-- [ ] Documentar decisiones sobre `components.json`.
 - [ ] Documentar patron de override con Tailwind.
 - [ ] Crear componente propio.
 - [ ] Crear registro de componentes.
@@ -140,6 +141,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Primera leccion | `evolution-of-component-libraries.md` |
 | Segunda leccion | `why-shadcn-ui-is-different.md` |
 | Tercera leccion | `core-concepts.md` |
+| Cuarta leccion | `components-json.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV
