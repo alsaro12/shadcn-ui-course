@@ -12,6 +12,7 @@ Autor de notas: Alonso Santamaria
 - [Core Concepts](core-concepts.md)
 - [Understanding components.json](components-json.md)
 - [What are Radix Primitives?](what-are-radix-primitives.md)
+- [Anatomy of a Primitive](anatomy-of-a-primitive.md)
 
 ## Fuente
 

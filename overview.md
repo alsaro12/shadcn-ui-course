@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `anatomy-of-a-primitive.md`
+- `installing-shadcn-ui.md`
 
 ## Resumen
 
@@ -122,6 +122,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar tercera leccion `core-concepts`.
 - [x] Revisar cuarta leccion `components-json`.
 - [x] Revisar quinta leccion `what-are-radix-primitives`.
+- [x] Revisar sexta leccion `anatomy-of-a-primitive`.
 - [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [ ] Instalar `shadcn/ui`.
@@ -144,6 +145,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Tercera leccion | `core-concepts.md` |
 | Cuarta leccion | `components-json.md` |
 | Quinta leccion | `what-are-radix-primitives.md` |
+| Sexta leccion | `anatomy-of-a-primitive.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV
