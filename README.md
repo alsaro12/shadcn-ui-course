@@ -11,6 +11,7 @@ Autor de notas: Alonso Santamaria
 - [Why shadcn/ui is Different](why-shadcn-ui-is-different.md)
 - [Core Concepts](core-concepts.md)
 - [Understanding components.json](components-json.md)
+- [What are Radix Primitives?](what-are-radix-primitives.md)
 
 ## Fuente
 
