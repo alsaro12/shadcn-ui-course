@@ -8,11 +8,11 @@ Ultima lectura: 2026-06-30
 
 ## Estado
 
-Curso iniciado.
+Curso completado.
 
 Leccion actual:
 
-- `extending-shadcn-ui-with-custom-components.md`
+- Curso completado.
 
 ## Resumen
 
@@ -129,6 +129,11 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar decima leccion `updating-and-maintaining-components`.
 - [x] Revisar undecima leccion `exploring-globals-css`.
 - [x] Revisar duodecima leccion `what-is-a-component-registry`.
+- [x] Revisar decimotercera leccion `extending-shadcn-ui-with-custom-components`.
+- [x] Revisar decimocuarta leccion `creating-a-shadcn-registry-file`.
+- [x] Revisar decimoquinta leccion `publishing-your-components`.
+- [x] Revisar decimosexta leccion `use-controllable-state`.
+- [x] Revisar decimoseptima leccion `compound-components-and-advanced-composition`.
 - [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [x] Documentar instalacion de `shadcn/ui`.
@@ -139,9 +144,12 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Documentar mantenimiento de componentes.
 - [x] Documentar arquitectura de `globals.css`.
 - [x] Documentar que es un component registry.
-- [ ] Crear componente propio.
-- [ ] Crear registro de componentes.
-- [ ] Guardar evidencia final.
+- [x] Documentar como crear componente propio.
+- [x] Documentar como crear registro de componentes.
+- [x] Documentar como publicar componentes.
+- [x] Documentar `useControllableState`.
+- [x] Documentar compound components.
+- [x] Guardar evidencia final.
 
 ## Evidencias
 
@@ -149,7 +157,7 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | --- | --- |
 | Carpeta de notas | `shadcn ui/` |
 | Proyecto local | Pendiente |
-| Repo | Pendiente |
+| Repo | https://github.com/alsaro12/shadcn-ui-course |
 | Deployment | Pendiente |
 | Primera leccion | `evolution-of-component-libraries.md` |
 | Segunda leccion | `why-shadcn-ui-is-different.md` |
@@ -163,7 +171,12 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Decima leccion | `updating-and-maintaining-components.md` |
 | Undecima leccion | `exploring-globals-css.md` |
 | Duodecima leccion | `what-is-a-component-registry.md` |
-| Estado | Curso iniciado |
+| Decimotercera leccion | `extending-shadcn-ui-with-custom-components.md` |
+| Decimocuarta leccion | `creating-a-shadcn-registry-file.md` |
+| Decimoquinta leccion | `publishing-your-components.md` |
+| Decimosexta leccion | `use-controllable-state.md` |
+| Decimoseptima leccion | `compound-components-and-advanced-composition.md` |
+| Estado | Curso completado |
 
 ## Resumen corto para LinkedIn/CV
 

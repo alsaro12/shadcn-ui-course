@@ -19,6 +19,11 @@ Autor de notas: Alonso Santamaria
 - [Updating and Maintaining Components](updating-and-maintaining-components.md)
 - [Exploring globals.css](exploring-globals-css.md)
 - [What is a Component Registry?](what-is-a-component-registry.md)
+- [Extending shadcn/ui with Custom Components](extending-shadcn-ui-with-custom-components.md)
+- [Creating a shadcn Registry File](creating-a-shadcn-registry-file.md)
+- [Publishing Your Components](publishing-your-components.md)
+- [useControllableState](use-controllable-state.md)
+- [Compound Components and Advanced Composition](compound-components-and-advanced-composition.md)
 
 ## Fuente
 
