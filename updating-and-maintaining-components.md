@@ -178,13 +178,33 @@ Si un componente fue muy personalizado, el update no debe aplicarse de forma aut
 
 ## Done-When
 
-- Entiendo que `shadcn/ui` no actualiza componentes automaticamente: si el archivo vive en mi repo, yo controlo cuando cambia.
-- Entiendo el beneficio del ownership: puedo modificar comportamiento, estilos y estructura sin depender de una API cerrada.
-- Entiendo la responsabilidad del ownership: debo revisar bugs, mejoras y cambios relevantes con criterio.
-- Entiendo que `--overwrite` sirve cuando quiero reemplazar desde el registry, pero puede borrar personalizaciones locales.
-- Entiendo que `npx shadcn@latest diff` ayuda a comparar mi componente contra la version actual.
-- Entiendo que un componente proxy facilita updates, pero agrega otra capa de componentes.
-- Entiendo que el enfoque recomendado para componentes personalizados es revisar el diff y aplicar cambios selectivamente.
+Resuelto: Entiendo que `shadcn/ui` no actualiza componentes automaticamente.
+
+Cuando agrego un componente, el archivo queda dentro de mi repo. Desde ese momento, no se comporta como una dependencia que recibe updates sola. Yo decido cuando revisar cambios y cuando aplicarlos.
+
+Resuelto: Entiendo el beneficio del ownership.
+
+El beneficio es que puedo modificar comportamiento, estructura y estilos sin esperar permisos de una libreria externa. El componente pasa a ser codigo del proyecto.
+
+Resuelto: Entiendo la responsabilidad del ownership.
+
+Si el codigo es mio, tambien debo mantenerlo. Eso incluye revisar bugs, cambios de seguridad, mejoras de accesibilidad y cambios del registry que puedan convenir al proyecto.
+
+Resuelto: Entiendo cuando usar `--overwrite`.
+
+`--overwrite` sirve para reemplazar un componente local con la version del registry. Es util si no lo he personalizado mucho. Si ya lo edite, puede borrar cambios importantes.
+
+Resuelto: Entiendo para que sirve `npx shadcn@latest diff`.
+
+El comando `diff` me permite comparar mi componente local con la version mas reciente del registry. Asi puedo decidir que partes traer sin reemplazar todo.
+
+Resuelto: Entiendo el tradeoff de proxy components.
+
+Un proxy component permite personalizar sin tocar el componente base, lo que facilita updates. El costo es que agrega otra capa y puede duplicar el tamano del sistema de componentes.
+
+Resuelto: Entiendo el enfoque recomendado para componentes personalizados.
+
+Si un componente fue modificado, lo correcto es revisar el diff y aplicar cambios selectivamente. No conviene actualizar a ciegas ni ignorar todos los updates.
 
 ## Nota personal
 

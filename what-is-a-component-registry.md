@@ -185,13 +185,33 @@ La diferencia no es el servidor ni la velocidad. La diferencia es el modelo de d
 
 ## Done-When
 
-- Entiendo que un component registry es un catalogo de source code y metadata de componentes.
-- Entiendo que el CLI de `shadcn/ui` usa el registry para saber que archivos copiar y que dependencias instalar.
-- Entiendo que un registry no es lo mismo que npm: npm instala paquetes, el registry distribuye codigo editable.
-- Entiendo que los registry items pueden declarar dependencias, archivos, tipo, categoria y otros componentes requeridos.
-- Entiendo que los registry websites sirven para descubrir, previsualizar y documentar componentes.
-- Entiendo que el registry conserva el modelo copy-paste porque el resultado final vive en mi proyecto.
-- Entiendo por que los registries custom permiten extender `shadcn/ui` sin abandonar ownership del codigo.
+Resuelto: Entiendo que un component registry es un catalogo de source code y metadata.
+
+Un registry guarda informacion sobre componentes y los archivos que deben copiarse. No es solo una galeria visual; tambien describe dependencias, tipo de componente y estructura.
+
+Resuelto: Entiendo como lo usa el CLI de `shadcn/ui`.
+
+Cuando ejecuto `npx shadcn@latest add button`, el CLI consulta el registry, resuelve dependencias y copia los archivos al proyecto usando la configuracion local.
+
+Resuelto: Entiendo la diferencia entre registry y npm.
+
+npm instala paquetes como dependencias externas. Un registry entrega codigo fuente para copiarlo dentro del repo. Esa diferencia mantiene el modelo de ownership.
+
+Resuelto: Entiendo que puede declarar un registry item.
+
+Un item puede declarar `name`, `description`, `dependencies`, `registryDependencies`, `files`, `type` y `category`. Esa metadata le dice al CLI que necesita copiar e instalar.
+
+Resuelto: Entiendo para que sirve un registry website.
+
+El sitio ayuda a descubrir componentes, ver previews, leer documentacion y revisar ejemplos. Pero lo importante para instalar es que exista un archivo de registry que el CLI pueda consumir.
+
+Resuelto: Entiendo por que conserva el modelo copy-paste.
+
+Aunque el componente venga de un registry, el resultado final vive en mi proyecto. Puedo leerlo, modificarlo, versionarlo y mantenerlo como parte del codebase.
+
+Resuelto: Entiendo el valor de los registries custom.
+
+Un registry custom permite compartir componentes propios o de comunidad sin convertirlos en una dependencia cerrada. Extiende `shadcn/ui` manteniendo control sobre el codigo.
 
 ## Nota personal
 

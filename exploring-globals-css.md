@@ -277,14 +277,37 @@ Los componentes no dependen de un color especifico. Dependen de un proposito vis
 
 ## Done-When
 
-- Entiendo que `globals.css` define la base del tema de `shadcn/ui`.
-- Entiendo que los tokens semanticos describen proposito, no color fijo.
-- Entiendo que `:root` define el tema base y `.dark` sobrescribe variables para dark mode.
-- Entiendo que `@theme inline` conecta variables CSS con utilidades de Tailwind.
-- Entiendo que `bg-primary` deberia combinarse con `text-primary-foreground`.
-- Entiendo que cambiar `--primary`, `--background` o `--radius` puede afectar muchos componentes.
-- Entiendo que `OKLCH` ayuda a crear relaciones de color mas consistentes.
-- Entiendo que debo probar light mode, dark mode, focus states y contraste despues de modificar tokens.
+Resuelto: Entiendo que `globals.css` define la base del tema de `shadcn/ui`.
+
+Este archivo contiene los tokens globales que usan los componentes. Si cambio variables como `--primary`, `--background` o `--radius`, el cambio puede reflejarse en muchas partes de la interfaz.
+
+Resuelto: Entiendo que los tokens semanticos describen proposito, no color fijo.
+
+`primary` no significa azul, rojo o negro. Significa accion principal. `muted` significa menor enfasis. Esto permite cambiar el tema sin cambiar el componente.
+
+Resuelto: Entiendo como funcionan `:root` y `.dark`.
+
+`:root` define los valores base del tema. `.dark` reemplaza esos valores cuando el modo oscuro esta activo. Los componentes solo leen variables, por eso se adaptan automaticamente.
+
+Resuelto: Entiendo que hace `@theme inline`.
+
+`@theme inline` conecta las variables CSS con las utilidades de Tailwind. Gracias a eso puedo usar clases como `bg-primary`, `text-foreground` o `border-border`.
+
+Resuelto: Entiendo la relacion entre background y foreground.
+
+Si uso `bg-primary`, deberia usar `text-primary-foreground` para el texto. Esos pares ayudan a mantener contraste y coherencia visual.
+
+Resuelto: Entiendo el impacto de cambiar tokens globales.
+
+Modificar `--primary`, `--background`, `--border`, `--ring` o `--radius` no afecta solo un componente. Puede cambiar botones, cards, inputs, dialogs y estados de focus.
+
+Resuelto: Entiendo por que `OKLCH` es util.
+
+`OKLCH` permite razonar mejor sobre brillo, intensidad y tono. Eso ayuda a crear colores con relaciones mas consistentes y mejor base para contraste.
+
+Resuelto: Entiendo que debo probar despues de modificar tokens.
+
+Despues de tocar `globals.css`, debo revisar light mode, dark mode, focus states, contraste, bordes y componentes reales. Un token global puede verse bien en un boton y mal en otro contexto.
 
 ## Nota personal
 
