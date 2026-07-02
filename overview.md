@@ -12,7 +12,7 @@ Curso iniciado.
 
 Leccion actual:
 
-- `updating-and-maintaining-components.md`
+- `extending-shadcn-ui-with-custom-components.md`
 
 ## Resumen
 
@@ -126,6 +126,9 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Revisar septima leccion `installing-shadcn-ui`.
 - [x] Revisar octava leccion `adding-your-first-component`.
 - [x] Revisar novena leccion `overriding-styles-with-tailwind`.
+- [x] Revisar decima leccion `updating-and-maintaining-components`.
+- [x] Revisar undecima leccion `exploring-globals-css`.
+- [x] Revisar duodecima leccion `what-is-a-component-registry`.
 - [x] Documentar decisiones sobre `components.json`.
 - [ ] Crear proyecto de practica si el curso lo requiere.
 - [x] Documentar instalacion de `shadcn/ui`.
@@ -133,6 +136,9 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 - [x] Documentar como agregar primer componente.
 - [ ] Agregar primer componente en proyecto de practica.
 - [x] Documentar patron de override con Tailwind.
+- [x] Documentar mantenimiento de componentes.
+- [x] Documentar arquitectura de `globals.css`.
+- [x] Documentar que es un component registry.
 - [ ] Crear componente propio.
 - [ ] Crear registro de componentes.
 - [ ] Guardar evidencia final.
@@ -154,6 +160,9 @@ Este curso esta orientado a arquitectura de UI y componentes, no a APIs, workflo
 | Septima leccion | `installing-shadcn-ui.md` |
 | Octava leccion | `adding-your-first-component.md` |
 | Novena leccion | `overriding-styles-with-tailwind.md` |
+| Decima leccion | `updating-and-maintaining-components.md` |
+| Undecima leccion | `exploring-globals-css.md` |
+| Duodecima leccion | `what-is-a-component-registry.md` |
 | Estado | Curso iniciado |
 
 ## Resumen corto para LinkedIn/CV

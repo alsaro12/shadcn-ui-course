@@ -16,6 +16,9 @@ Autor de notas: Alonso Santamaria
 - [Installing shadcn/ui](installing-shadcn-ui.md)
 - [Adding Your First Component](adding-your-first-component.md)
 - [Overriding Styles with Tailwind](overriding-styles-with-tailwind.md)
+- [Updating and Maintaining Components](updating-and-maintaining-components.md)
+- [Exploring globals.css](exploring-globals-css.md)
+- [What is a Component Registry?](what-is-a-component-registry.md)
 
 ## Fuente
 
